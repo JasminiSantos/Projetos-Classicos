@@ -1,0 +1,21 @@
+body{
+    background: blue;
+}
+#container{
+    text-align: center;
+}
+#change-button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+    opacity: 15%;
+}
+#change-button:hover{
+    opacity: 100%;
+    background: gray;
+    color: white;
+}
+#title{
+    text-align: center;
+    color: white;
+}

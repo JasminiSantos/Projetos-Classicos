@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    background: #f8d8e0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px 55px;
+    width: 300px;
+    height: 150px;
+    border-radius: 7px;
+    align-items: center;
+}
+#quote{
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#icon-top{
+    width: 40px;
+    position: relative;
+    bottom: 50px;
+}
+#icon-bottom{
+    width: 40px;
+    position: fixed;
+    bottom: 45px;    
+}
+#quote-button{  
+    background: #96ffe6;
+    border-radius: 10px;
+    border: solid 1px #83ffe1;
+    position: fixed;
+    bottom: 10px; 
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+}
+#author{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+    </style>
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+    <body>
+        <div id = "container">
+            <img id = "icon-top" src="./left-quotes-sign.svg" alt="left-quote icon">
+
+            <p   id="quote">Let's look at some quotes</p>
+            <span id="author"></span>
+            
+            <img id = "icon-bottom" src="./right-quotes-symbol.svg" alt="right-quote icon">
+
+            <input onClick="showQuote()" type="button" id= "quote-button" value = "Generate">
+      </div>
+    </body>
+  <script type="text/javascript" src="./quote_generator.js"></script>
+</html>
